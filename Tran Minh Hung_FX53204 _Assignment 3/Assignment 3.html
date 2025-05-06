@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=SUSE:wght@100..800&family=Spline+Sans:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assignment 3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-M+39hJ8lQ1XjWPL+L5Qe5gE2J0R0JKqmkJ8lW/1fR96/j6ZYiQUU6jY/iYcXqO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="start" style="position: relative;display: block;color: rgb(255, 255, 255);">
+        <img src="./banner.jpg" class="gt gt-img" >
+        <div class="gt gt-1"></div>
+        <p class="gt gt-2">Nguyễn Văn A</p>
+        <p class="gt gt-3">Full Stack Developer</p>
+    </div>
+    <div class="block"></div>
+    <!-- Navbar -->
+     <nav class="nav">
+        <div class="nav-list">
+
+            <div class="nav-child">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill"
+                    viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+                THÔNG TIN
+            </div>
+            <div class="nav-child">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark-text"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                    <path
+                        d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                </svg>
+                LÍ LỊCH</div>
+            <div class="nav-child">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg>
+                CHỨNG CHỈ</div>
+            <div class="nav-child">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                DỰ ÁN</div>
+
+        </div>
+        
+        
+     </nav>
+     <div class="enter"></div>
+    <div class="center-container">
+        <button class="view-more-git btn btn-info"><a style="text-decoration: none;color:white" href="https://github.com/Imsobad3112008/TranMinhHung_asm3">Xem code tại Github</a></button>
+    </div>
+
+     <!-- Information -->
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="row align-items-center">
+
+                <div class="col">
+                <div id="infor1">
+                    <h2 class="mb-3">Mục tiêu nghề nghiệp</h2>
+                    <p class="infor infor-1">
+                        Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+                        của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
+                        Developer, có thể vận dụng những kiến thức đã được trau dồi và
+                        không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt
+                        nhất công việc được giao.
+                    </p>
+                    
+                </div>
+                <div class="enter"></div>
+            </div>
+            <div class="col">
+                <!-- HTML -->
+                <div id="form-container" >
+                    
+                    <input type="text" class="form-control" id="email" placeholder="Nhập email của bạn..." required>
+                    <div id="email-error" style="color:red; font-size: 0.9rem; margin-top: 5px;"></div>
+                    <button class="btn btn-primary" type="submit" onclick="checkEmail()">Gửi</button>
+                    <div class="enter"></div>
+                </div>
+                
+                <div id="result" class="col" style="margin-top: 2vh;"></div>
+            </div>
+
+            </div>
+            
+        </div>
+
+
+    <div class="enter"></div>
+    <!-- grid -->
+        <div class="grid-container">
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h3 class="skill-title">Kinh Ngiệm <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" id="img" fill="currentColor" class="bi bi-briefcase"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5" />
+                    </svg></h3>
+                    <button class="toggle-btn btn btn-outline-success">View More</button>
+                </div>
+                <div class="skill-detail">
+                    
+                    
+                    
+                        <span class="head toggle-title">Kinh nghiệm</span><br>
+                        <div class="toggle-content">
+                            <div class="enter"></div>
+                            <span class="head1">Công ty Y</span><br>
+                            <span class="day">05/2022 - <span
+                                    style="color: white;background-color: rgba(20, 98, 244, 0.714);border-radius: 5px;text-align: center;">Hiện
+                                    tại</span><br></span>
+                            - Full Stack Developer<br>
+                            - Xây dựng, phát triển website dựa trên thiết kế và yêu cầu có sẵn.<br>
+                            - Phân tích và thiết kế cơ sở dữ liệu, sử dụng các hệ quản trị CSDL.<br>
+                            <div class="enter"></div>
+                            <span class="head1">Công ty X</span> <br>
+                            <span class="day">06/2021 - 04/2022</span> <br>
+                            - Web Designer<br>
+                            - Thiết kế website dựa trên yêu cầu của khách hàng.<br>
+                            - Sử dụng các công cụ: Figma, Canva, Photoshop.<br>
+                        </div>
+                    
+                    
+
+
+                </div>
+            </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-title">Học Vấn<svg xmlns="http://www.w3.org/2000/svg" id="img" width="25" height="25" fill="currentColor" class="bi bi-pen"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
+                            </svg></h3>
+                            <button class="toggle-btn btn btn-outline-success">View More</button>
+                        </div>
+                        <div class="skill-detail">
+                        
+                                <span class="head toggle-title">FUNiX</span><br>
+                                <div class="enter"></div>
+                                <span class="day">06/2021 - 05/2022</span> <br>
+                                - Tốt nghiệp chứng chỉ doanh nghiệp ngành Fullstack.<br>
+                                - GPA: 9/10<br>
+                                <div class="enter"></div>
+                                <span class="head1">Cử nhân - ĐH FPT</span> <br>
+                                <span class="day">08/2016 - 07/2019</span><br>
+                                - Chuyên ngành: Kỹ thuật phần mềm.<br>
+                                - GPA: 3.2/4<br>
+                                <div class="enter"></div>
+                                <span class="head1">Đại học Hà Nội</span> <br>
+                                <span class="day">08/2016 - 02/2018</span> <br>
+                                - Hệ từ xa, chuyên ngành: Ngôn ngữ Nhật<br>
+                                - GPA: 2.8/4<br>
+                        </div>
+                    </div>
+                    
+                    
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-title">Hoạt Động<svg xmlns="http://www.w3.org/2000/svg" id="img" width="25" height="25" fill="currentColor" class="bi bi-flag"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21 21 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21 21 0 0 0 14 7.655V1.222z" />
+                            </svg></h3>
+                            <button class="toggle-btn btn btn-outline-success">View More</button>
+                        </div>
+                        <div class="skill-detail">
+                    
+                            <span class="head toggle-title">FPT Edu Hackathon 2019</span><br>
+                            <div class="enter"></div>
+                            <span class="day">03/2019 - 05/2019</span> <br>
+                            - Giải 3 bảng A<br>
+                            - Đề tài: Trang web về phân loại rác thải.<br>
+                            <div class="enter"></div>
+                            <span class="head1">Câu lạc bộ Z</span> <br>
+                            <span class="day">08/2018 - 08/2019</span><br>
+                            - Trưởng ban chuyên môn<br>
+                            <div class="enter"></div>
+                            <span class="head1">Câu lạc bộ Z</span> <br>
+                            <span class="day">08/2016</span><br>
+                            - Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản<br>
+                        </div>
+                    
+                    </div>
+
+
+                    <!-- Đánh giá năng lực -->
+            
+
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-title">Sở Thích <svg xmlns="http://www.w3.org/2000/svg" id="img" width="25" height="25" fill="currentColor" class="bi bi-heart-fill"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                        </svg></h3>
+                        <button class="toggle-btn btn btn-outline-success">View More</button>
+                    </div>
+                    <div class="skill-detail">
+                
+                        
+                    <span class="head toggle-title">Sở thích</span><br>
+                    <div class="enter"></div>
+                    <div class="list">
+                        <div id="items" class="like-list">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-megaphone"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z" />
+                            </svg><br>
+                            Âm nhạc
+                        </div>
+                
+                        <div id="items" class="like-list">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599" />
+                            </svg><br>
+                            Du lịch
+                        </div>
+                
+                        <div id="items" class="like-list">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-controller"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z" />
+                                <path
+                                    d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27" />
+                            </svg><br>
+                            Chơi game
+                        </div>
+                
+                        <div id="items" class="like-list">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-basket"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5" />
+                            </svg><br>
+                            Nấu ăn
+                        </div>
+                    </div>
+                </div>
+
+                        
+
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-title">Ngôn Ngữ <svg xmlns="http://www.w3.org/2000/svg" id="img" width="25" height="25" fill="currentColor" class="bi bi-mic"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                                <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3" />
+                            </svg></h3>
+                            <button class="toggle-btn btn btn-outline-success">View More</button>
+                        </div>
+                        <div class="skill-detail">
+                    
+
+                        <span class="head toggle-title">Ngôn ngữ</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3" />
+                        </svg><br>
+                        <div class="enter"></div>
+                        English - IELTS 7.0<br>
+                        <br><div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                            <div class="levels" style=" background-color: rgb(191, 193, 193);"></div>
+                        </div><br>
+                        <div class="enter"></div>
+                        Japanese - N3<br>
+                        <br><div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                        </div><br>
+                    
+                    
+                        </div>
+                    </div>
+
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-title">Kĩ Năng <svg xmlns="http://www.w3.org/2000/svg" id="img" width="25" height="25" fill="currentColor" class="bi bi-bar-chart-line-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
+                        </svg></h3>
+                        <button class="toggle-btn btn btn-outline-success">View More</button>
+                    </div>
+                    <div class="skill-detail">
+                
+                        <span class="head toggle-title">Kĩ năng</span><br>
+                        <div class="enter"></div>
+                        HTML/CSS: Fundamental<br>
+                        <br><div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                        </div><br>
+                        <div class="enter"></div>
+                        Javascript: Intermediate<br>
+                        <br><div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                        </div><br>
+                        <div class="enter"></div>
+                        NoteJS: Intermediate<br>
+                        <br>
+                        <div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                            <div class="levels"></div>
+                        </div><br>
+                        <div class="enter"></div>
+                        bootstrap 5: Fundamental<br>
+                        <br>
+                        <div class="my-skill">
+                            <div class="levels"></div>
+                            <div class="levels" style="background-color: rgb(191, 193, 193);"></div>
+                            <div class="levels" style="background-color: rgb(191, 193, 193);"></div>
+                        </div><br>
+
+                
+                
+                    </div>
+                </div>
+            </div>    
+
+        <h2>Chứng chỉ - Giải thưởng</h2>
+        <div class="certificates-wrapper">
+            <div class="cert-item">
+                <img class="congration" src="./Cert_DBI.png">
+                <div class="text">
+                    CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX<br>
+                    - Chứng chỉ thuộc chương trình CCDN <br>
+                    - GPA: 8.6
+                </div>
+            </div>
+        
+            <div class="cert-item">
+                <img class="congration" src="./Cert_PRF.png">
+                <div class="text">
+                    CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX<br>
+                    - Chứng chỉ thuộc chương trình CCDN <br>
+                    - GPA: 8.9
+                </div>
+            </div>
+        
+            <div class="cert-item">
+                <img class="congration" src="./Cert_WEB.png">
+                <div class="text">
+                    CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX<br>
+                    - Chứng chỉ thuộc chương trình CCDN <br>
+                    - GPA: 8.0
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="enter"></div>
+        <h2>Dự án</h2>
+            <div class="flex-project">
+                <!-- Project 1 -->
+                <div class="grid-items">
+                    <img src="./project_1.png" alt="Project 1" style="width: 100%; height: auto; border-radius: 1vh;">
+                    <div class="project">
+                        <p class="head">CV CÁ NHÂN</p>
+                    </div>
+            
+                    <div class="project">
+                        <div class="flex">
+                            <div class="year"><span class="old">2021</span></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            <span class="year">FUNiX</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                            </svg>
+                            <span class="year">Developer</span>
+                        </div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Mô tả</div>
+                        <div class="infor-3">Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp.
+                        </div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Nhiệm vụ</div>
+                        <div class="infor-3">- Phát triển code<br>- Review code<br>- Tối ưu code<br>- Xử lý lỗi</div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Công nghệ</div>
+                        <div class="infor-3">- HTML, CSS</div>
+                    </div>
+                </div>
+            
+                <!-- Project 2 -->
+                <div class="grid-items">
+                    <img src="./project_2.png" alt="Project 2" style="width: 100%; height: auto; border-radius: 1vh;">
+                    <div class="project">
+                        <p class="head">TRANG WEB QUẢN LÝ THÚ CƯNG</p>
+                    </div>
+            
+                    <div class="project">
+                        <div class="flex">
+                            <div class="year"><span class="old">2021</span></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            <span class="year">FUNiX</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                            </svg>
+                            <span class="year">Developer</span>
+                        </div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Mô tả</div>
+                        <div class="infor-3">Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm
+                            chủng. Bao gồm các chức năng thêm/sửa/xóa.</div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Nhiệm vụ</div>
+                        <div class="infor-3">- Phát triển code<br>- Review code<br>- Tối ưu code<br>- Xử lý lỗi</div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Công nghệ</div>
+                        <div class="infor-3">- HTML, CSS, Javascript</div>
+                    </div>
+                </div>
+            
+                <!-- Project 3 -->
+                <div class="grid-items">
+                    <img src="./project_3.png" alt="Project 3" style="width: 100%; height: auto; border-radius: 1vh;">
+                    <div class="project">
+                        <p class="head">TRANG WEB XEM TIN TỨC</p>
+                    </div>
+            
+                    <div class="project">
+                        <div class="flex">
+                            <div class="year"><span class="old">2021</span></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            <span class="year">FUNiX</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" id="svg-project" fill="currentColor"
+                                class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                            </svg>
+                            <span class="year">Developer</span>
+                        </div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Mô tả</div>
+                        <div class="infor-3">Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức
+                            dựa theo các từ khóa.</div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Nhiệm vụ</div>
+                        <div class="infor-3">- Phát triển code<br>- Review code<br>- Tối ưu code<br>- Xử lý lỗi</div>
+                    </div>
+            
+                    <div class="project">
+                        <div class="mô-tả">Công nghệ</div>
+                        <div class="infor-3">- HTML, CSS, Javascript</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 4vh;"></div>
+        <footer>
+            <div class="container text-center footer">
+                <div class="row align-items-center">
+                    <div class="col footer-item">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg></a>
+                        <span>Facebook</span>
+                    </div>
+                            
+                    <div class="col footer-item">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg></a>
+                        <span>LinkedIn</span>
+                    </div>
+                            
+                    <div class="col footer-item">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                            </svg></a>
+                        <span>Github</span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </footer>
+
+
+
+
+    
+        
+       <script>
+        document.addEventListener("DOMContentLoaded", function () {
+                // Ẩn mặc định tất cả .skill-detail
+                document.querySelectorAll(".skill-detail").forEach(detail => {
+                    detail.style.display = "none";
+                });
+
+                const toggleButtons = document.querySelectorAll(".toggle-btn");
+
+                toggleButtons.forEach(button => {
+                    button.addEventListener("click", function () {
+                        const skillItem = this.closest(".skill-item");
+                        const detail = skillItem.querySelector(".skill-detail");
+
+                        if (detail.style.display === "none" || detail.style.display === "") {
+                            detail.style.display = "block";
+                            this.textContent = "View Less";
+                        } else {
+                            detail.style.display = "none";
+                            this.textContent = "View More";
+                        }
+                    });
+                });
+            });
+
+            // JS
+                function checkEmail() {
+                        const emailInput = document.getElementById("email");
+                        const emailError = document.getElementById("email-error");
+                        const resultDiv = document.getElementById("result");
+                        const formContainer = document.getElementById("form-container");
+                        const email = emailInput.value.trim();
+                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                        emailError.textContent = "";
+                        resultDiv.innerHTML = "";
+
+                        if (!email) {
+                            emailError.textContent = "Email không được để trống.";
+                            return;
+                        }
+
+                        if (!emailRegex.test(email)) {
+                            emailError.textContent = "Email không hợp lệ. Vui lòng nhập lại.";
+                            return;
+                        }
+
+                        // Ẩn form nhập
+                        formContainer.style.display = "none";
+
+                        // Hiển thị thông tin
+                        resultDiv.innerHTML = `
+        <div style="text-align: center; margin-top: -3vh;">
+            <h2 style="color: rgb(83, 85, 86);margin-bottom: 5vh;margin-top: 0;">Thông tin cá nhân</h2>
+            <p class="infor-2">
+                Giới tính: Nam <br>
+                Ngày sinh: 03/11/2008<br>
+                Số điện thoại: 0372792848<br>
+                Email: ${email}<br>
+                Địa chỉ: Phường Mỹ Xuân, thị xã Phú Mỹ, tỉnh Bà Rịa - Vũng Tàu<br>
+                Website: https://abc.tech
+            </p>
+        </div>
+    `;
+                    }
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

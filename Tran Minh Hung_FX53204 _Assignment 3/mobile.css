@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        gap: 2vh;
+        padding: 2vh 1vh;
+        margin-right: 20%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .nav-child {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .grid-container-1 {
+        grid-template-columns: 1fr; /* 1 cột cho mobile */
+        gap: 3vh;
+    }
+
+    .cert-item {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .congration {
+        height: auto;
+    }
+
+    .grid-container,
+    .flex-project {
+        grid-template-columns: 1fr; /* 1 cột trên mobile */
+        gap: 3vh;
+    }
+
+    .infor-1 {
+        max-width: 90vw;
+        margin-top: 5vh;
+    }
+
+    .my-skill {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1vh;
+    }
+
+    .levels {
+        width: 80%;
+    }
+
+    #items svg {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .start {
+        height: 30vh;
+    }
+
+    .gt-2 {
+        font-size: 3vh;
+    }
+
+    .gt-3 {
+        font-size: 2vh;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.grid-container-1 {
+    width: 90vw;
+    background-color: rgba(250, 255, 255, 0.936);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* desktop: 3 cột */
+    grid-template-rows: 1fr; /* 1 hàng duy nhất */
+    gap: 5vh;
+    justify-items: center;
+    align-items: start;
+}
+@media (max-width: 900px) {
+    .cert-item {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cert-item {
+        max-width: 90%;
+    }
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .like-list {
+    width: 60px;
+  }
+
+  .levels {
+    width: 25px;
+  }
+}
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    .list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .like-list {
+        width: 80%;
+    }
+}

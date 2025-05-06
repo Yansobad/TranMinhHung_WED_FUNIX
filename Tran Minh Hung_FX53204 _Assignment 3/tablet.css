@@ -1,0 +1,69 @@
+@media (max-width: 1024px) and (min-width: 600px) {
+    body {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .nav {
+        width: 95vw;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    .nav-list {
+        flex-direction:row;
+        gap: 2vh;
+    }
+
+    .nav-child {
+        width: auto;
+    }
+
+    .certificates-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cert-item {
+        max-width: 80%;
+        margin-right: 0;
+    }
+
+    .congration {
+        height: auto;
+        width: 100%;
+    }
+
+    .grid-container,
+    .grid-container-1,
+    .flex-project {
+        grid-template-columns: 1fr 1fr;
+        gap: 3vh;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .infor-3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .project {
+        padding: 1vh;
+    }
+
+    .start {
+        height: 40vh;
+    }
+
+    .gt-2 {
+        font-size: 3vh;
+    }
+
+    .gt-3 {
+        font-size: 2vh;
+    }
+}
